@@ -1,0 +1,105 @@
+[
+    {
+        "id": 1,
+        "src": "../Images/project2.png",
+        "alt": "SSImg",
+        "title": "School System",
+        "descr": "This application was developed for students and teachers that need an app for their school and need to control their assignments, time and take overall control of their tasks.",
+        "link": "https://infinite-chamber-84516.herokuapp.com/",
+        "tools" :["HTML", "CSS Bootstrap Framework","JavaScript","jQuery","Sequalize","MySql","Data Tables","Google Fonts","Express.js","Node.js","DotEnv","Bcrypt","Express-session","Full Calendar"],
+        "git": "https://github.com/izaack89/school-system/"
+    },
+    {
+        "id": 2,
+        "src": "../Images/project1.png",
+        "alt": "METImg",
+        "title": "NY MET Museum",
+        "descr": "This application was developed for tourism that want to visit the MET Museum in order to know its artwork and find interesting places in New York that are closest to the museum.",
+        "link": "https://ragexxx.github.io/NY_MET_MUSEUM/",
+        "tools" :["HTML", "CSS Foundation Framework","JavaScript","jQuery","MET API","OpenTripMap API"],
+        "git": "https://github.com/ragexxx/NY_MET_MUSEUM/"
+        
+    },
+    {
+        "id": 3,
+        "src": "../Images/budgetapp.png",
+        "alt": "budgetImg",
+        "title": "Progressive Bugdet",
+        "descr": "This application was developed for users that want to  to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.",
+        "link": "https://cryptic-sands-21653.herokuapp.com/",
+        "tools" :["HTML", "CSS Bootstrap Framework ","JavaScript","Nodejs","Express","MongoDB","indexedDB"],
+        "git": "https://github.com/Yazmin30-bot/progressive-budget"
+    },
+    {
+        "id": 4,
+        "src": "../Images/workout_tracker.png",
+        "alt": "fitnessImg",
+        "title": "Fitness Tracker",
+        "descr": "This application was developed for users that want to view create and track daily workouts, to log multiple exercises in a workout on a given day, to track the name, type, weight, sets, reps, and duration of exercise, and  to track my distance traveled if the exercise is a cardio exercise.",
+        "link": "https://invulnerable-baguette-18839.herokuapp.com/",
+        "tools" :["HTML", "CSS Bootstrap Framework ","JavaScript","Nodejs","Express","MongoDB"],
+        "git": "https://github.com/Yazmin30-bot/workout-tracker/"
+    },
+    {
+        "id": 5,
+        "src": "../Images/blog.png",
+        "alt": "blogImg",
+        "title": "Tech Blog",
+        "descr": "This application was developed for users that want to  publish their blog posts and comment on other developers’ posts as well. ",
+        "link": "https://secret-waters-30875.herokuapp.com/",
+        "tools" :["HTML", "CSS Bootstrap Framework ","JavaScript","Nodejs","Express","MySql","Handlebars","Sequalize","DotEnv","Bcrypt"],
+        "git": "https://github.com/Yazmin30-bot/tech-blog/"
+    },
+    {
+        "id": 6,
+        "src": "../Images/note-taker.png",
+        "alt": "NoteImg",
+        "title": "Note Taker",
+        "descr": "This application was developed for users that want to write and save notes.",
+        "link": "https://morning-temple-42127.herokuapp.com/",
+        "tools" :["HTML", "CSS Bootstrap Framework ","JavaScript","Nodejs","Express"],
+        "git": "https://github.com/Yazmin30-bot/note-taker/"
+    },
+    {
+        "id": 7,
+        "src": "../Images/weather_dashboard.png",
+        "alt": "weatherImg",
+        "title": "Weather Dashboard",
+        "descr": "This application was developed for users that want to know the weather of the city that you are looking for ",
+        "link": "https://yazmin30-bot.github.io/weather-dashboard/",
+        "tools" :["HTML", "CSS Bootstrap Framework","JavaScript","One Call API","Current weather data API"],
+        "git": "https://github.com/Yazmin30-bot/weather-dashboard/"
+    },
+   
+    {
+        "id": 8,
+        "src": "../images/work_day_scheduler.png",
+        "alt": "WorkDayImg",
+        "title": "Work Day Scheduler",
+        "descr": "This calendar application was developed for user that want to save events for each hour of the day.",
+        "link": "https://yazmin30-bot.github.io/work-day-scheduler/",
+        "tools" :["HTML", "CSS","JavaScript","jQuery","Moment.js"],
+        "git": "https://github.com/Yazmin30-bot/work-day-scheduler/"
+    },
+    {
+        "id": 9,
+        "src": "../images/code_quiz.png",
+        "alt": "codeImg",
+        "title": "Code Quiz",
+        "descr": "This application was developed for users that want to solve a timed coding quiz with multiple-choice questions.",
+        "link": "https://yazmin30-bot.github.io/code-quiz/index.html",
+        "tools" :["HTML", "CSS","JavaScript"],
+        "git": "https://github.com/Yazmin30-bot/code-quiz/"
+    },
+    {
+        "id": 10,
+        "src": "../images/password_generator.png",
+        "alt": "passImg",
+        "title": "Password Generator",
+        "descr": "This application was developed for users that want to generate a password ",
+        "link": "https://yazmin30-bot.github.io/password-generator/",
+        "tools" :["HTML", "CSS","JavaScript"],
+        "git": "https://github.com/Yazmin30-bot/password-generator"
+    }
+    
+]
