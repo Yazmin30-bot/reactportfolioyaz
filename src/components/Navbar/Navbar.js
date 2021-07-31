@@ -28,7 +28,7 @@ function Navbar(props) {
                             {/* <a href="#contact" class="nav-link">Contact</a> */}
                             <Link className="nav-link" to="/reactportfolioyaz/contact">Contact</Link>
                         </li>
-					     <li className="nav-item"><a href="../reactportfolioyaz/cv/Yazmin Tinoco CV.pdf" className="nav-link" target="blank">Resume</a></li>
+					     <li className="nav-item"><a href="../reactportfolioyaz/cv/YAZMINTINOCOCV.pdf" className="nav-link" target="blank">Resume</a></li>
 					</ul>
 				</div>
 			</div>

@@ -8,7 +8,7 @@ function AboutMe() {
 <div className="container">
 	<div className="section" id="about-me">
 		<div>
-			<img src="../reactportfolioyaz/Images/yop.jpg" alt="Yazmin Tinoco"/>
+			<img src="../reactportfolioyaz/images/yop.jpg" alt="Yazmin Tinoco"/>
 			<br></br>
 			<br></br>
 			<ul>
