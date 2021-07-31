@@ -1,11 +1,74 @@
 import React , { Component } from "react";
 /* import "../Contact/ContactForm.css"; */
 
-
+const validEmailRegex = RegExp(/^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/);
+const validateForm = (errors) => {
+  let valid = true;
+  Object.values(errors).forEach(
+    (val) => val.length > 0 && (valid = false)
+  );
+  return valid;
+}
 
 class ContactForm extends Component {
 
-	s
+	constructor(props) {
+		super(props);
+		this.state = {
+		  fullname: null,
+		  email: null,
+		  message: null,
+		  errors: {
+			fullname: '',
+			email: '',
+			message: '',
+		  }
+		};
+	  }
+
+	handleChange = (event) => {
+		event.preventDefault();
+		const { name, value } = event.target;
+		let errors = this.state.errors;
+	  
+		switch (name) {
+		  case 'fullname': 
+			errors.fullname = 
+			  value.length < 3
+				? 'Name must be 3 characters long!'
+				: '';
+			break;
+		  case 'email': 
+			errors.email = 
+			  validEmailRegex.test(value)
+				? ''
+				: 'Email is not valid!';
+			break;
+		  case 'message': 
+			errors.message = 
+			  value.length < 8
+				? 'Message must be 8 characters long!'
+				: '';
+			break;
+		  default:
+			break;
+		}
+	  
+		this.setState({errors, [name]: value});
+	  }
+	
+	handleSubmit = (event) => {
+		event.preventDefault();
+		if(validateForm(this.state.errors)) {
+		  console.info('Valid Form')
+		  alert("Your message was send");
+		  
+		}else{
+		  console.error('Invalid Form')
+		  alert("Invalid Form")
+		}
+	  }
+	  
 
 	render () {
 		const {errors} = this.state;
