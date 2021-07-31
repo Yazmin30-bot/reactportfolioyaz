@@ -9,7 +9,7 @@ function Navbar(props) {
 		<nav className="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light fixed-top" id="ftco-navbar">
 			<div className="container">
 				{/* <a className="navbar-brand" href="#about-me">Yazmin <span>Tinoco</span></a> */}
-                <Link className="navbar-brand" to="/">Yazmin <span>Tinoco</span></Link>
+                <Link className="navbar-brand" to="/reactportfolioyaz/">Yazmin <span>Tinoco</span></Link>
 				<button className="navbar-toggler sticky-top" type="button" data-toggle="collapse" data-target="#ftco-nav"
 					aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 					<span className="fa fa-bars"></span> Menu
