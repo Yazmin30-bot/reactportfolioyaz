@@ -16,11 +16,11 @@ function Footer(props) {
 								<a href="https://www.linkedin.com/in/ytp30/" target="_blank" rel="noopener noreferrer" className="d-flex align-items-center justify-content-center"><span
 										className="fab fa-linkedin fa-2x"><i className="sr-only">Linkedin</i></span></a> 
        
-								<a href="https://www.linkedin.com/in/ytp30/" target="_blank" rel="noopener noreferrer" className="d-flex align-items-center justify-content-center"><span
+								<a href="https://www.instagram.com/yazi.t/" target="_blank" rel="noopener noreferrer" className="d-flex align-items-center justify-content-center"><span
 										className="fab fa-instagram fa-2x"><i className="sr-only">Instagram</i></span></a>
                                      
-								<a href="https://www.linkedin.com/in/ytp30/" target="_blank" rel="noopener noreferrer" className="d-flex align-items-center justify-content-center"><span
-										className="fab fa-dribbble fa-2x"><i className="sr-only">Dribbble</i></span></a> 
+								<a href="https://my.indeed.com/p/yazmnt-nfmkhwb/" target="_blank" rel="noopener noreferrer" className="d-flex align-items-center justify-content-center"><span
+										className="fab fa-dribbble fa-2x"><i className="sr-only">Indeed</i></span></a> 
                                     
 							</p>
 						</div>
