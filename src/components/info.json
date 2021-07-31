@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "src": "../Images/project2.png",
+        "src": "../reactportfolioyaz/images/project2.png",
         "alt": "SSImg",
         "title": "School System",
         "descr": "This application was developed for students and teachers that need an app for their school and need to control their assignments, time and take overall control of their tasks.",
@@ -11,7 +11,7 @@
     },
     {
         "id": 2,
-        "src": "../Images/project1.png",
+        "src": "../reactportfolioyaz/images/project1.png",
         "alt": "METImg",
         "title": "NY MET Museum",
         "descr": "This application was developed for tourism that want to visit the MET Museum in order to know its artwork and find interesting places in New York that are closest to the museum.",
@@ -22,7 +22,7 @@
     },
     {
         "id": 3,
-        "src": "../Images/budgetapp.png",
+        "src": "../reactportfolioyaz/images/budgetapp.png",
         "alt": "budgetImg",
         "title": "Progressive Bugdet",
         "descr": "This application was developed for users that want to  to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.",
@@ -32,7 +32,7 @@
     },
     {
         "id": 4,
-        "src": "../Images/workout_tracker.png",
+        "src": "../reactportfolioyaz/images/workout_tracker.png",
         "alt": "fitnessImg",
         "title": "Fitness Tracker",
         "descr": "This application was developed for users that want to view create and track daily workouts, to log multiple exercises in a workout on a given day, to track the name, type, weight, sets, reps, and duration of exercise, and  to track my distance traveled if the exercise is a cardio exercise.",
@@ -42,7 +42,7 @@
     },
     {
         "id": 5,
-        "src": "../Images/blog.png",
+        "src": "../reactportfolioyaz/images/blog.png",
         "alt": "blogImg",
         "title": "Tech Blog",
         "descr": "This application was developed for users that want to  publish their blog posts and comment on other developers’ posts as well. ",
@@ -52,7 +52,7 @@
     },
     {
         "id": 6,
-        "src": "../Images/note-taker.png",
+        "src": "../reactportfolioyaz/images/note-taker.png",
         "alt": "NoteImg",
         "title": "Note Taker",
         "descr": "This application was developed for users that want to write and save notes.",
@@ -62,7 +62,7 @@
     },
     {
         "id": 7,
-        "src": "../Images/weather_dashboard.png",
+        "src": "../reactportfolioyaz/images/weather_dashboard.png",
         "alt": "weatherImg",
         "title": "Weather Dashboard",
         "descr": "This application was developed for users that want to know the weather of the city that you are looking for ",
@@ -73,7 +73,7 @@
    
     {
         "id": 8,
-        "src": "../images/work_day_scheduler.png",
+        "src": "../reactportfolioyaz/images/work_day_scheduler.png",
         "alt": "WorkDayImg",
         "title": "Work Day Scheduler",
         "descr": "This calendar application was developed for user that want to save events for each hour of the day.",
@@ -83,7 +83,7 @@
     },
     {
         "id": 9,
-        "src": "../images/code_quiz.png",
+        "src": "../reactportfolioyaz/images/code_quiz.png",
         "alt": "codeImg",
         "title": "Code Quiz",
         "descr": "This application was developed for users that want to solve a timed coding quiz with multiple-choice questions.",
@@ -93,7 +93,7 @@
     },
     {
         "id": 10,
-        "src": "../images/password_generator.png",
+        "src": "../reactportfolioyaz/images/password_generator.png",
         "alt": "passImg",
         "title": "Password Generator",
         "descr": "This application was developed for users that want to generate a password ",
