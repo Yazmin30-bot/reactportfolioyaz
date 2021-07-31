@@ -9,7 +9,7 @@ function Portfolio() {
     return(
         <div>
             <Navbar
-                about="/"/>
+                about="/reactportfolioyaz/"/>
             <div className="section">
                 <div className="album py-5 bg-light" id="portfolio">
                     <h1 className="display-4" id="disp4">Portfolio</h1>
