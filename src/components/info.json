@@ -4,7 +4,7 @@
         "src": "../reactportfolioyaz/images/project2.png",
         "alt": "SSImg",
         "title": "School System",
-        "descr": "This application was developed for students and teachers that need an app for their school and need to control their assignments, time and take overall control of their tasks.",
+        "descr": "This application was developed for users that need an app for their school and need to control their assignments, time and take overall control of their tasks.",
         "link": "https://infinite-chamber-84516.herokuapp.com/",
         "tools" :["HTML", "CSS Bootstrap Framework","JavaScript","jQuery","Sequalize","MySql","Data Tables","Google Fonts","Express.js","Node.js","DotEnv","Bcrypt","Express-session","Full Calendar"],
         "git": "https://github.com/izaack89/school-system/"

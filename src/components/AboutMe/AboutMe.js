@@ -19,15 +19,21 @@ function AboutMe() {
         <br></br>
 		<div className="a-m">
 			<p>
-				I am a software engineer that has skills in both the back-end of web applications and
-				the front-end. My previous career as a math engineer brought me close to my true
-				passion: coding. I wasn’t satisfied with only being involved in automating and
-				data analyzing , and wanted a deeper involvement in building out applications.
-				In the next phase of my career, I not only want to work on the technically challenging
-				facets of the application, but I also want to use my design skills to make
-				the application look beautiful too. I seek a role as a web developer at a company
-				where I follow best practices like Test Driven Development and pair programming
-				to help me learn and grow as a developer, and continue to master the craft.
+
+			Full stack web developer with math engineer degree at National Polytechnic Institute. 
+			Recently earned a certificate in full stack development from Tecnológico de Monterrey. 
+			Fascinated by computer science fundamentals and breaking down a problem piece-by-piece 
+			to find a solution. My technical aptitude in cutting-edge web technologies, combined with 
+			adept problem solving abilities and determination, make me a strong addition to any
+			engineering team. With each project, my aim is to best engage my audience for an impactful 
+			user experience. I applied aspects of UX and agile development in a recent project. 
+			I worked on a team of four to develop a single-page app that helps students and professors
+			to control their assignments, time and take overall control of their tasks. I’m excited to 
+			leverage my skills as part of a fast-paced, quality-driven team to build better experiences 
+			on the web, follow best practices like Test Driven Development and pair programming to help 
+			me learn and grow as a developer.
+
+
 			</p>
 			<ul>
 				<li><i className="fab fa-react"></i>React</li>
