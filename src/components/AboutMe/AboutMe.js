@@ -38,7 +38,7 @@ function AboutMe() {
 			<ul>
 				<li><i className="fab fa-react"></i>React</li>
 				<li><i className='fab fa-node-js'></i> Nodejs</li>
-				<li><i className="fa fa-gear"></i> RESTful API</li>
+				<li><i className="fa fa-gear"></i> RESTful API / GraphQL API</li>
 				<li><i className="fa fa-database"></i> MySQL / MongoDB</li>
 				<li><i className="fab fa-js"></i> JavaScript</li>
 				<li><i className="fa fa-server"></i> Express.js (Server)</li>		
