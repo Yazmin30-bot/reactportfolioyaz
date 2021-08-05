@@ -4,8 +4,10 @@ import "../Contact/ContactForm.css";
 const validEmailRegex = RegExp(/^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/);
 const validateForm = (errors) => {
   let valid = true;
+  /* console.log("object",Object.values(errors)); */
   Object.values(errors).forEach(
-    (val) => val.length > 0 && (valid = false)
+    (val) => val.length > 0 && (valid = false) && (val.length !== '')
+	
   );
   return valid;
 }
@@ -30,11 +32,11 @@ class ContactForm extends Component {
 		event.preventDefault();
 		const { name, value } = event.target;
 		let errors = this.state.errors;
-	  
+
 		switch (name) {
 		  case 'fullname': 
 			errors.fullname = 
-			  value.length < 3
+			  (value.length < 3 && value.length >= 0)
 				? 'Name must be 3 characters long!'
 				: '';
 			break;
@@ -46,7 +48,7 @@ class ContactForm extends Component {
 			break;
 		  case 'message': 
 			errors.message = 
-			  value.length < 8
+			  value.length < 8 
 				? 'Message must be 8 characters long!'
 				: '';
 			break;
@@ -59,15 +61,26 @@ class ContactForm extends Component {
 	
 	handleSubmit = (event) => {
 		event.preventDefault();
+		/* console.log("INVALID FORM ERROR",this.state.errors); */
+		const email = event
+		console.log("email",email)
+		console.log(this)
 		if(validateForm(this.state.errors)) {
-		  console.info('Valid Form')
-		  alert("Your message was send");
+			console.log(validateForm(this.state.errors));
+			
+				console.info('Valid Form')
+				alert("Your message was send"); 
 		  
 		}else{
 		  console.error('Invalid Form')
 		  alert("Invalid Form")
+		  console.log("event error",event)
 		}
 	  }
+
+	/*   $('#idButton').on('click', function() {
+		// The button is disabled but this will be executed.
+	}); */
 	  
 
 	render () {
@@ -109,28 +122,28 @@ class ContactForm extends Component {
 								<div className="col-lg-8 mb-5">
 									<div >
 										<div >
-											<form className="contact100-form validate-form name" onSubmit={this.handleSubmit} noValidate>
+											<form className="contact100-form validate-form name" name="theform" onSubmit={this.handleSubmit} noValidate>
 												<div className="wrap-input100 validate-input bg1 rs1-alert-validate" data-validate="Please Type Your Name">
 													<label htmlFor="name"><span className="label-input100">Name *</span></label>
-													<input className="input100" type="text" name="fullname" placeholder="Enter Your Name" onChange={this.handleChange} noValidate></input>
+													<input className="input100" type="text" name="fullname" placeholder="Enter Your Name" onClick={this.handleChange} onChange={this.handleChange}  noValidate></input>
 													{errors.fullname.length > 0 &&  <span className='error'>{errors.fullname}</span>}
 												</div>
 
 												<div className="wrap-input100 validate-input bg1 rs1-alert-validate email" data-validate = "Enter Your Email (e@a.x)">
 													<label htmlFor="email"><span className="label-input100">Email *</span></label>
-													<input className="input100" type="email" name="email" placeholder="Enter Your Email" onChange={this.handleChange} noValidate></input>
+													<input className="input100" type="email" name="email" placeholder="Enter Your Email" onClick={this.handleChange} onChange={this.handleChange} noValidate></input>
 													{errors.email.length > 0 && <span className='error'>{errors.email}</span>}
 												</div>
 
 												<div className="wrap-input100 validate-input bg0 rs1-alert-validate message" data-validate = "Please Type Your Message">
 													<label htmlFor="message"><span className="label-input100">Message</span></label>
-													<textarea className="input100" type="message" name="message" placeholder="Your message here..." onChange={this.handleChange} noValidate></textarea>
+													<textarea className="input100" type="message" name="message" placeholder="Your message here..." onClick={this.handleChange} onChange={this.handleChange} noValidate></textarea>
 													{errors.message.length > 0 && <span className='error'>{errors.message}</span>}
 												</div>
 
 												<div className="container-contact100-form-btn">
-													<button className="contact100-form-btn">
-														<span>Submit<i className="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i></span>
+													<button className="contact100-form-btn submit" disabled={!this.state.email}>
+														<span>Submit</span>
 													</button>
 												</div>
 											</form>

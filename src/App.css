@@ -986,3 +986,29 @@ padding-bottom: 1rem;}
     footer{
       text-align: center;
     }
+
+
+    button:disabled,
+  button[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+
+button:disabled  ,
+button[disabled]{
+border: 1px solid #999999;
+background-color: #cccccc;
+color: #666666;
+/* pointer-events:none; */
+
+}
+
+.container-contact100-form-btn button:disabled,
+button[disabled] :hover:before {
+background-color: #cccccc;
+color: #666666;
+content: "Please fill the form to  ";
+}
+
+
