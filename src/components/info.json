@@ -1,6 +1,16 @@
 [
     {
         "id": 1,
+        "src": "../reactportfolioyaz/images/ecommerce.png",
+        "alt": "e-commerce",
+        "title": "Market Place",
+        "descr": "This application was developed for users that can buy and sell used products they wouldn’t be able to find or sell anywhere else.",
+        "link": "https://depulgas.herokuapp.com/",
+        "tools" :["React", "JavaScript", "HTML", "CSS Materialize Framework", "Nodejs", "Express.js", "Cloudinary", "MongoDB"],
+        "git": "https://github.com/ragexxx/de_pulgas"
+    },
+    {
+        "id": 2,
         "src": "../reactportfolioyaz/images/project2.png",
         "alt": "SSImg",
         "title": "School System",
@@ -10,7 +20,7 @@
         "git": "https://github.com/izaack89/school-system/"
     },
     {
-        "id": 2,
+        "id": 3,
         "src": "../reactportfolioyaz/images/project1.png",
         "alt": "METImg",
         "title": "NY MET Museum",
@@ -21,7 +31,7 @@
         
     },
     {
-        "id": 3,
+        "id": 4,
         "src": "../reactportfolioyaz/images/budgetapp.png",
         "alt": "budgetImg",
         "title": "Progressive Bugdet",
@@ -31,7 +41,7 @@
         "git": "https://github.com/Yazmin30-bot/progressive-budget"
     },
     {
-        "id": 4,
+        "id": 5,
         "src": "../reactportfolioyaz/images/workout_tracker.png",
         "alt": "fitnessImg",
         "title": "Fitness Tracker",
@@ -41,7 +51,7 @@
         "git": "https://github.com/Yazmin30-bot/workout-tracker/"
     },
     {
-        "id": 5,
+        "id": 6,
         "src": "../reactportfolioyaz/images/blog.png",
         "alt": "blogImg",
         "title": "Tech Blog",
@@ -51,7 +61,7 @@
         "git": "https://github.com/Yazmin30-bot/tech-blog/"
     },
     {
-        "id": 6,
+        "id": 7,
         "src": "../reactportfolioyaz/images/note-taker.png",
         "alt": "NoteImg",
         "title": "Note Taker",
@@ -61,7 +71,7 @@
         "git": "https://github.com/Yazmin30-bot/note-taker/"
     },
     {
-        "id": 7,
+        "id": 8,
         "src": "../reactportfolioyaz/images/weather_dashboard.png",
         "alt": "weatherImg",
         "title": "Weather Dashboard",
@@ -72,7 +82,7 @@
     },
    
     {
-        "id": 8,
+        "id": 9,
         "src": "../reactportfolioyaz/images/work_day_scheduler.png",
         "alt": "WorkDayImg",
         "title": "Work Day Scheduler",
@@ -82,7 +92,7 @@
         "git": "https://github.com/Yazmin30-bot/work-day-scheduler/"
     },
     {
-        "id": 9,
+        "id": 10,
         "src": "../reactportfolioyaz/images/code_quiz.png",
         "alt": "codeImg",
         "title": "Code Quiz",
@@ -92,7 +102,7 @@
         "git": "https://github.com/Yazmin30-bot/code-quiz/"
     },
     {
-        "id": 10,
+        "id": 11,
         "src": "../reactportfolioyaz/images/password_generator.png",
         "alt": "passImg",
         "title": "Password Generator",
